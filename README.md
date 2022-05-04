@@ -9,7 +9,8 @@
 ## Get start
 ### Installation
 
-Please refer to [get_started.md](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/get_started.md#installation) for installation and dataset preparation.
+Please refer to [get_started.md](https://github.com/open-mmlab/mmsegmentation/blob/v0.11.0/docs/get_started.md#installation) for installation and dataset preparation.
+
 
 
 ## Citing Graph-Segmenter
