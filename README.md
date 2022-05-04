@@ -34,10 +34,7 @@ python tools/train.py <CONFIG_FILE> --options model.pretrained=<PRETRAIN_MODEL> 
 # multi-gpu training
 tools/dist_train.sh <CONFIG_FILE> <GPU_NUM> --options model.pretrained=<PRETRAIN_MODEL> [model.backbone.use_checkpoint=True] [other optional arguments] 
 ```
-For example, to train an UPerNet model with a `Swin-T` backbone and 8 gpus, run:
-```
-tools/dist_train.sh configs/swin/upernet_swin_tiny_patch4_window7_512x512_160k_ade20k.py 8 --options model.pretrained=<PRETRAIN_MODEL> 
-```
+
 
 ## Citing Graph-Segmenter
 ```
